@@ -13,7 +13,7 @@ const Profile = () => {
         <Image src={"/avatar.png"} alt="profile" width={48} height={48} />
       </div>
       <div className="block xl:hidden 2xl:hidden 3xl:hidden">
-        <DropdownMenu className="cursor-pointer w-[75] h-[75]">
+        <DropdownMenu>
           <DropdownMenuTrigger>
             <Image src={"/avatar.png"} alt="profile" width={48} height={48} />
           </DropdownMenuTrigger>
